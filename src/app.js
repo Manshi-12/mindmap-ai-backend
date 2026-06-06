@@ -21,7 +21,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://proud-water-04c61f60f.7.azurestaticapps.net/", // your real URL
+    "https://black-bay-08bc33d0f.7.azurestaticapps.net/", // your real URL
     /\.azurestaticapps\.net$/,  // covers all Azure SWA preview URLs
   ],
   credentials: true,

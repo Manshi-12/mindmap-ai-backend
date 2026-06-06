@@ -21,8 +21,8 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://mindmap-ai-studio.vercel.app",
-    /\.vercel\.app$/,
+    "https://proud-water-04c61f60f.7.azurestaticapps.net/", // your real URL
+    /\.azurestaticapps\.net$/,  // covers all Azure SWA preview URLs
   ],
   credentials: true,
 }));
